@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+  }
+body {
+  margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #212529;
+    background-color: #fff;
+  }
+  .navbar {
+    background-color:black;
+  }
+  .main-btn {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: white;
+  }
+  .navbar .navbar-nav .nav-link:focus,
+  .navbar .navbar-nav .nav-link:hover {
+    color: var(--green-color);
+  }
+  .navbar .search {
+    border-left: 1px solid var(--green-color);
+  }
+  .navbar .search svg {
+    color: var(--green-color);
+  }
+  .baner {
+
+    background: url(../imgs/hero-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .baner .overlay-intro {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 110%;
+    width: 100%;
+    opacity: 0.6;
+  }
+  .title-mark {
+  content: "";
+  width: 150px;
+  height:2px;
+  background-color: var(--green-color);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+  .item  .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #fff;
+}
+.YEARS {
+  background-image: url(../imgs/counters-bg.jpg);
+    background-attachment: fixed;
+    background-position: right right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.YEARS .overlay {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#0078ff;
+    opacity: .6;
+}
+.portfolio-description .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  font-size: 1rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0b92eb;
+
+}
+.Xavi {
+  background-image: url(../imgs/slider-01.jpg);
+  background-attachment: fixed;
+  background-position: right right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.Xavi .overlay {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:#0078ff;
+    opacity: .6;
+}
+.service-item .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+}
+.contact {
+  background: url(../imgs/work-07.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+.contact .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--green-color);
+  opacity: .6;
+}
+.row {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: right 1.5rem;;
+  padding-left:1rem ;
+  margin-top: 1rem;;
+}
+.footer {
+  background: #0062d3;
+}
+.text-light {
+  color: #f8f9fa;
+}
+
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.d-flex {
+  display: flex;
+
+}
+.contact .flied {
+  width: 100%;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .2rem;
+}
+.contact input {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 1rem;
+}
+ .contact{
+  background-color: var(--dark-color);
+}
+.contact .copyright > span {
+  color: var(--green-color);
+}
+.contact .copyright div span {
+  color: var(--yellow-color);
+}
+.contact .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+.contact .facebook {
+  background-color: #1877f2;
+}
+.contact .twitter {
+  background-color: #1da1f2;
+}
+.contact .linkedin {
+  background-color: #0077b5;
+}
+.contact .youtube {
+  background-color: #ff0000;
+}
+
